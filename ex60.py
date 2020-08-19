@@ -1,8 +1,19 @@
+'''from math import factorial
 n = int(input('Digite um número: '))
-fatorial = 1
-count = 1
+f = factorial(n)
+print(f'O fatorial de {n} é {f}')'''
 
-while count <= n:
-    fatorial *= count
-    count += 1
-print(fatorial)
+#  Outro método
+
+n = int(input('Informe um número: '))
+c = n
+f = 1
+print(f'Calculando {n}! ', end='')
+while c > 0:
+    print(f'{c}', end='')
+    print(' x ' if c > 1 else ' = ', end='')
+    f *= c
+    c -= 1
+print(f'{f}')
+
+

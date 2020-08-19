@@ -29,9 +29,9 @@ while opcao != 5:
         n2 = int(input('Digite o segundo valor: '))
     elif opcao == '5':
         break
-
     else:
-        print('Opção inválida! Tente novamente')
+        print('Opção inválida. Tente novamente')
     print('=-=' * 10)
+    sleep(2)
         
 print('Finalizando a aplicação...')
